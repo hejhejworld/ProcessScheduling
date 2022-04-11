@@ -3,6 +3,7 @@ git config --system --list 查看系统配置
 git config --global --list 查看用户配置
 git config --global user.name 设置用户名
 git config --global user.email 设置邮箱
+git config --global init.defaultBranch main 更改默认分支名为main
 
 touch filename 创建文件
 git init 创建库
